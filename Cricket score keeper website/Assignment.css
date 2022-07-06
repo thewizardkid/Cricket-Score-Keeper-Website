@@ -1,0 +1,127 @@
+
+
+body{
+    background-color: black;
+    text-align: center;
+    
+    color: black;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    font-family: Algerian;
+    
+    
+}
+.navbar{
+  width: 100%;
+  height: 15vh;
+  background-color: #fff;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  width: 160px;
+  cursor: pointer;
+}
+.TV{
+  width: 160px;
+  position: absolute;
+  left: 88%;
+  cursor: pointer;
+}
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 0px 20px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+h1{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: 3em;
+  font-family: 'Mr Dafoe';
+  
+}
+.FlagIND{
+  height: 35%;
+  position: absolute;
+  left:2%;
+  top: 20%;
+
+}
+.FlagPAK{
+  height: 35%;
+  position: absolute;
+  right:1%;
+  top: 20%;
+
+}
+/*h1{
+    text-size-adjust: 80px;
+    border-style: dotted;
+    padding-bottom: 120px;
+    padding-top: 120px;
+    border-color: white;
+    border-width: thick;
+    outline-style: solid;
+    background: url('https://i.pinimg.com/originals/10/d6/94/10d6947819d3a0ae5bf6060da719fcc6.gif') no-repeat left center ,url('https://thumbs.gfycat.com/DarlingIdolizedIndianabat-size_restricted.gif') no-repeat right center ;
+    background-size: 480px 270px;
+    
+}*/
+h2{
+    margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  font-size: larger;
+  font-family: 'Mr Dafoe';
+  font-size: 3em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  color: white;
+  text-shadow: 0 0 0.05em #fff, 0 0 0.2em #fe05e1, 0 0 0.3em #fe05e1;
+}
+.button {
+    margin-top: 50px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    
+  }
+.button:hover {
+    background-color:red; 
+    color: white;
+  }  
+#start{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}  
+#start:hover{
+    background-color: red;
+    
+}
